@@ -15,7 +15,7 @@ const PORT = 5000;
 
 // MongoDB Connection
 mongoose.connect('mongodb://127.0.0.1:27017/ecommerce',)
-  .then(() => console.log('MongoDB connected'))
+  .then(() => console.log('MongoDB connected successfully'))
   .catch((err) => console.error(err));
 
 // User Schema
